@@ -1,0 +1,34 @@
+.navbar {
+    background-color: rgb(37, 126, 221);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo-container {
+    margin-left: 250px;
+
+}
+
+.logo {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 250px;
+}
+
+nav ul li {
+    margin: 0 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}

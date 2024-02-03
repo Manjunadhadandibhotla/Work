@@ -1,0 +1,92 @@
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.product-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.product-item {
+    width: 18%;
+    height: 350px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    
+}
+
+.product-info {
+    padding: 5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.product-info p {
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.product-info p:last-child {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating {
+    margin: 0;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    width: 25px;
+    border-radius: 4px;
+}
+
+
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.love-icon {
+    margin-left: 13px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-icon {
+    margin-right: 13px;
+    font-size: 20px;
+    cursor: pointer;
+}
